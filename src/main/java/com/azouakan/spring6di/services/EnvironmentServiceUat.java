@@ -5,7 +5,7 @@ import org.springframework.stereotype.Service;
 
 @Profile("UAT")
 @Service
-public class EnvironmentServiceDevUat implements EnvironmentService {
+public class EnvironmentServiceUat implements EnvironmentService {
     @Override
     public String getEnv() {
         return "UAT";
