@@ -7,7 +7,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.ActiveProfiles;
 
 
-@ActiveProfiles("EN")
+@ActiveProfiles({"EN","DEV"})
 @SpringBootTest
 class EnglishGreetingServiceTest {
 
